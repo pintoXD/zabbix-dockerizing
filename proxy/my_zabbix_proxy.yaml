@@ -26,7 +26,7 @@ services:
       memory: 512M
     reservations:
       cpus: '0.3'
-      memory: 256M
+      memory: 128M
   env_file:
    - .env_db_mysql_proxy
    - .env_prx
